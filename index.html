@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자맞추기 게임</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id = main-title>
+      <h2>숫자 맞추기 게임(Up & Down)</h2>
+    </div>
+    
+    <div id="container">
+      <div id="image-area">
+        <img src="https://media1.giphy.com/media/S99cgkURVO62qemEKM/giphy.gif?cid=ecf05e47jsf78g5p6wyxbf2yxsb0ymagr0ardr3k8tzekd63&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="main-image">
+      </div>
+      <div id="semi-container">
+        <div id="resultArea">1~100 사이의 숫자를 입력하세요!</div>
+        <input type="number" id = "user-input">
+        <div id="buttonArea">
+          <button id="tryBtn" class="twoBtn">도전</button>
+          <button id="resetBtn" class="twoBtn">재도전</button>
+        </div>
+        <div id="chanceArea">남은 기회 : 10번</div>
+      </div>  
+    </div>
+
+    <script src="main.js"></script> 
+  </body>
+</html>
